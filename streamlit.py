@@ -1,2 +1,4 @@
 import streamlit as st
-st.write("Hello **World!**")
+
+for i in range(100):
+    st.write("Hello **World!**")
