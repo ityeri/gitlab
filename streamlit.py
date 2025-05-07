@@ -6,13 +6,14 @@ tab1, tab2 = st.tabs(["Tab A", "Tab B"])
 with col1:
     st.title("col1")
 
+
+with col2:
+    st.title("col2")
+
     with tab1:
         st.write("tab1")
     with tab2:
         st.write("tab2")
-
-with col2:
-    st.title("col2")
 
 col1.subheader("sub header")
 col2.checkbox("checkbox")
